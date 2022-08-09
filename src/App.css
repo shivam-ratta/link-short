@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container .bg-light {
+  background-color: #fff !important;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  background-color: #f2f2f2;
+}
+.ng-invalid .ng-touched {
+  border:2px solid #dc3545 !important
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  margin: 0 5px;
+  font-weight: 500;
+}
+.landing-intro {
+  font-size: 50px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.error {
+  color: rgb(177, 61, 61)
+}
+
+.card-icon {
+  height: 70px;
+  width: 70px;
+  background: #4b3f6b;
+  padding: 16px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -48px;
+}
+.statistics-card-wrapper {
+  z-index: 99;
+}
+.statistics-card {
+  border-radius: 10px;
+}
+.statistics-card-wrapper:nth-child(2) {
+  margin-top: 50px!important;
+}
+.statistics-card-wrapper:nth-child(3) {
+  margin-top: 100px!important;
+}
+.footer-social-links {
+  width: 22px;
+  margin-left: 12px;
+  display: inline-block;
+}
+.statistics-tree-bar {
+  height: 6px;
+  width: 85%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-rounded {
+  border-radius: 10px;
+}
+
+.copied-btn{
+  background-color: #4b3f6b!important;
+}
+.original-link-input, .shorten-link-input {
+  background: transparent!important;
+  border: 0!important;
+}
+.original-link-input:focus, .shorten-link-input:focus {
+  box-shadow: none!important;
+}
+.copy-btn {
+  /* max-width: 150px;
+  width: 150px; */
+}
+
+@media only screen and (max-width:768px) {
+  .nested-nav {
+      position: unset!important;
+  }
+  .nested-nav > .navbar-nav {
+      padding-bottom: 0!important;
+  }
+  .navbar-nav {
+      background: #4b3f6b;
+      margin: 0!important;
+      padding: 20px 20px;
+      border-radius: 10px;
+  }
+  .navbar-collapse {
+      margin-top: 10px;
+  }
+  .nav-item:nth-child(3) {
+      border-bottom: 1px solid white;
+      padding-bottom: 16px!important;
+  }
+  .nav-item {
+      justify-content: center;
+  }
+  .nav-link {
+      color: #ffffff!important;
+  }
+  .signup-btn {
+      width: 100%;
+      padding: 10px 0!important;
+      font-weight: bold;
+  }
+  .nested-nav, .nested-nav > .navbar-nav, .nested-nav > .navbar-nav > .nav-item > .nav-link {
+      text-align: center;
+      width: 100%;
+  }
+  .custom-footer-menu div {
+      font-size: 12px;
+      margin-bottom: 8px;
+  }   
+  .card-icon {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .statistics-card-wrapper:nth-child(1), .statistics-card-wrapper:nth-child(2), .statistics-card-wrapper:nth-child(3) {
+      margin: 40px auto!important;
+  }
+  .statistics-tree-bar {
+      width: 7px;
+      height: 66%;
+  }
+  .copy-btn {
+      width: 100%;
+  }
+  .copied-btn{
+    width: 100%;
+  }
+  .link-wrapper {
+      border-bottom: 1px solid rgb(211, 193, 193);
+      padding-bottom: 10px!important;
+  }
+  .short-link-wrapper {
+      text-align: left!important;
+  }
+  .login-nav {
+    border-radius: 0px 0px 10px 10px !important;
+  }
+  .Features-nav {
+    border-radius: 10px 10px 0px 0px !important;
+  }
+}
